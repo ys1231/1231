@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/check_sx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三星" />
+
+    <CheckBox
+        android:id="@+id/check_pg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="苹果" />
+
+    <CheckBox
+        android:id="@+id/check_xm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小米" />
+
+    <CheckBox
+        android:id="@+id/check_hw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="华为" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索" />
+
+</LinearLayout>
